@@ -1,0 +1,40 @@
+*{
+    background-color:chartreuse;
+}
+
+a:link{
+color: darkblue;
+}
+
+a:visited{
+    color: magenta;
+}
+
+a:hover{
+    color: red;
+}
+
+h1{
+    color: black;
+}
+
+li{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: chartreuse;
+    font-family: sans-serif;
+    color:#6D214F ;
+
+}
+
+.bodyimg{
+    display: flex;
+    justify-content: center;
+    background-color: #0c2461;
+    padding: 30px;
+    margin: 30px;
+}
+
+.bodyimg:hover img{
+    opacity: 0.33;
+}
